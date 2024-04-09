@@ -12,7 +12,7 @@ git clone https://github.com/JoeArtisan/earthquake-api.git
 - Run setup script
 ```
 cd earthquake-api
-./bin/setup
+ruby ./bin/setup
 ```
 
 ## Request features using Rake Task
