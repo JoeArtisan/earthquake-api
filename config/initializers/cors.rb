@@ -1,6 +1,6 @@
 Rails.application.config.middleware.insert_before 0, Rack::Cors do
     allow do
-      origins 'http://localhost:5173' # Reemplaza esto con el origen de tu aplicación Vue.js
+      origins 'http://localhost:8081' # Reemplaza esto con el origen de tu aplicación Vue.js
       resource '/api/*',
         headers: :any,
         methods: [:get, :post, :put, :patch, :delete, :options, :head],
